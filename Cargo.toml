@@ -1,0 +1,14 @@
+[package]
+name = "dev-null-program"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+solana-program = "=1.16.18"
+
+[lib]
+name = "dev_null_program"
+crate-type = ["cdylib"]
